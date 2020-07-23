@@ -1,4 +1,4 @@
-# LCCGAN-v2
+# LCCGAN++
 
 Pytorch implementation for “Improving Generative Adversarial Networks with Local Coordinate Coding”.
 
@@ -7,7 +7,7 @@ Pytorch implementation for “Improving Generative Adversarial Networks with Loc
 
 * AutoEncoder (AE) learns the embeddings on the latent manifold.
 
-* Local Coordinate Coding (LCC) learns local coordinate systems. Specifically, we train LCCGAN-v1 with q=2 and LCCGAN-v2 with q=3.
+* Local Coordinate Coding (LCC) learns local coordinate systems. Specifically, we train LCCGAN-v1 with q=2 and LCCGAN++ with q=3.
 
 * The LCC sampling method is conducted on the latent manifold.
 
@@ -33,11 +33,11 @@ In our paper, to sample different images, we train our model on four datasets, r
 
 ## Training
 
-* Train LCCGAN-v2 on MNIST dataset.
+* Train LCCGAN++ on MNIST dataset.
 
     * python trainer.py --dataset mnist --dataroot ./mnist --nc 1
 
-* Train LCCGAN-v2 on Oxford-102 Flowers dataset.
+* Train LCCGAN++ on Oxford-102 Flowers dataset.
 
     * python trainer.py --dataset Oxford-102 --dataroot your_images_folder
 
