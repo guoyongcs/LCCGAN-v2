@@ -19,17 +19,6 @@ python 2.7
 
 Pytorch 0.4
 
-## Dataset
-
-In our paper, to sample different images, we train our model on four datasets, respectively.
-
-* Download [MNIST][3] dataset.
-
-* Download [Oxford-102 Flowers][4] dataset.
-
-* Download [Large-scale CelebFaces Attributes (CelebA)][5] dataset.
-
-* Download [Large-scale Scene Understanding (LSUN)][6] dataset.
 
 ## Training
 
