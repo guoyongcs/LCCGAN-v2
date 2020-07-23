@@ -20,7 +20,7 @@ python 2.7
 Pytorch 0.4
 
 
-## Training
+## Training Method
 
 * Train LCCGAN++ on MNIST dataset.
 
